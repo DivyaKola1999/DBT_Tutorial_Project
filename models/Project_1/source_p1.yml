@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: dbt_source_data_landing
+    database: DBT_SOURCE_DATA
+    schema: LANDING
+
+    tables:
+      - name: SRC_CUSTOMERS
+      - name: SRC_GEOLOCATION
+      - name: SRC_ORDERS
+      - name: SRC_ORDER_ITEMS
+      - name: SRC_ORDER_PAYMENTS
+      - name: SRC_ORDER_REVIEWS
+      - name: SRC_PRODUCTS
+      - name: SRC_PRODUCT_CATEGORY_NAME_TRANSLATION
+      - name: SRC_SELLERS

@@ -1,0 +1,60 @@
+version: 2
+
+sources:
+  - name: dbt_source_data_bronze
+    database: DBT_SOURCE_DATA
+    schema: BRONZE
+    tables:
+      - name: CUSTOMER
+        description: "Customer details including demographics and contact info."
+        columns:
+          - name: CUSTOMERID
+            description: "Unique identifier for customers."
+          - name: AGE
+            description: "Age of the customer."
+          - name: CITY
+            description: "City where customer resides."
+          - name: EMAIL
+            description: "Customer email address."
+          - name: NAME
+            description: "Full name of customer."
+
+      - name: PRODUCT
+        description: "Product catalog with pricing and categorization."
+        columns:
+          - name: PRODUCTID
+            description: "Unique identifier for products."
+          - name: PRODUCTNAME
+            description: "Name/title of the product."
+          - name: CATEGORY
+            description: "Category/group of the product."
+          - name: PRICE
+            description: "Unit price of the product."
+
+      - name: SALES
+        description: "Sales transactions linking customers to products."
+        columns:
+          - name: SALEID
+            description: "Unique sales transaction ID."
+          - name: PRODUCTID
+            description: "Identifier for product sold."
+          - name: QUANTITY
+            description: "Number of product units sold."
+          - name: CUSTOMERID
+            description: "Identifier for purchasing customer."
+          - name: SALEDATE
+            description: "Date the sale occurred."
+          - name: TOTALPRICE
+            description: "Total price for the sale."
+
+      - name: TRANSACTIONS
+        description: "Payment transactions related to sales."
+        columns:
+          - name: TRANSACTIONID
+            description: "Unique payment transaction ID."
+          - name: SALEID
+            description: "Associated sales transaction ID."
+          - name: PAYMENTMETHOD
+            description: "Payment method used (e.g., credit card, cash)."
+          - name: TRANSACTIONDATE
+            description: "Date of the payment transaction."
