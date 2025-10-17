@@ -7,13 +7,15 @@ with sales_agg as (
 ),
 
 customer_data as (
-    select customerid, name, age
+    select customerid, name,email, city, age
     from DBT_SOURCE_DATA.BRONZE.CUSTOMER
 )
 
 select
     s.customerid,
     c.name,
+    c.email,
+    c.city,
     c.age,
     s.total_spent
 from sales_agg s
