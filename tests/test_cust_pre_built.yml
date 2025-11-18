@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: cust_info
+    description: "This model selects customer data from the raw CUSTOMER source."
+    columns:
+      - name: customerid
+        description: "Unique identifier for customers."
+        tests:
+          - unique
+          - not_null
+
+      - name: name
+        description: "Name of the customer."
+        tests:
+          - not_null
+
+      - name: age
+        description: "Age of the customer."
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
+  
+      - name: city
+        description: "City where the customer resides."
+        tests:
+          - not_null
+
+      - name: email
+        description: "Customer email address."
+        tests: 
+          - not_null
+
+      - name: updated_at
+        description: "Timestamp when the customer record was last updated."
+        tests:
+          - not_null
