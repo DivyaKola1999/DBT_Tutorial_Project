@@ -36,3 +36,5 @@ models:
         description: "Timestamp when the customer record was last updated."
         tests:
           - not_null
+
+  
