@@ -1,3 +1,3 @@
 select *
 from {{ ref('customer_age_group') }}
-where age > 130
+where age > 44
