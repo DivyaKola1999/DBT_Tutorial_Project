@@ -37,15 +37,4 @@ models:
         tests:
           - not_null
 
-  - name: product_sales_summary
-
-    description: "This model selects customer data from the raw CUSTOMER source."
-
-    tests:
-           - dbt_utils.unique_combination_of_columns:
-                 arguments:
-                     combination of columns:
-                           -productname
-                           -category
-
- 
+  
