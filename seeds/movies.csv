@@ -1,0 +1,33 @@
+movie_id,title,genre,release_year,duration_minutes,rating,updated_at
+1,The Shawshank Redemption,Drama,1994,142,9.3,2024-06-01 10:00:00
+2,The Godfather,Crime,1972,175,9.2,2024-06-01 10:05:00
+3,The Dark Knight,Action,2008,152,9.0,2024-06-01 10:10:00
+4,12 Angry Men,Drama,1957,96,8.9,2024-06-01 10:15:00
+5,Schindler's List,Biography,1993,195,8.9,2024-06-01 10:20:00
+6,The Lord of the Rings: The Return of the King,Adventure,2003,201,8.9,2024-06-01 10:25:00
+7,Pulp Fiction,Crime,1994,154,8.9,2024-06-01 10:30:00
+8,The Good the Bad and the Ugly,Western,1966,178,8.8,2024-06-01 10:35:00
+9,Fight Club,Drama,1999,139,8.8,2024-06-01 10:40:00
+10,Forrest Gump,Drama,1994,142,8.8,2024-06-01 10:45:00
+11,Inception,Action,2010,148,8.7,2024-06-01 10:50:00
+12,The Matrix,Sci-Fi,1999,136,8.7,2024-06-01 10:55:00
+13,Goodfellas,Crime,1990,146,8.7,2024-06-01 11:00:00
+14,The Empire Strikes Back,Adventure,1980,124,8.7,2024-06-01 11:05:00
+15,One Flew Over the Cuckoo's Nest,Drama,1975,133,8.7,2024-06-01 11:10:00
+16,Interstellar,Adventure,2014,169,8.6,2024-06-01 11:15:00
+17,Parasite,Thriller,2019,132,8.6,2024-06-01 11:20:00
+18,City of God,Crime,2002,130,8.6,2024-06-01 11:25:00
+19,Spirited Away,Animation,2001,125,8.6,2024-06-01 11:30:00
+20,Saving Private Ryan,War,1998,169,8.6,2024-06-01 11:35:00
+21,The Green Mile,Crime,1999,189,8.6,2024-06-01 11:40:00
+22,Life Is Beautiful,Comedy,1997,116,8.6,2024-06-01 11:45:00
+23,The Pianist,Biography,2002,150,8.5,2024-06-01 11:50:00
+24,The Lion King,Animation,1994,88,8.5,2024-06-01 11:55:00
+25,Terminator 2: Judgment Day,Action,1991,137,8.5,2024-06-01 12:00:00
+26,Back to the Future,Adventure,1985,116,8.5,2024-06-01 12:05:00
+27,Gladiator,Action,2000,155,8.5,2024-06-01 12:10:00
+28,The Prestige,Mystery,2006,130,8.5,2024-06-01 12:15:00
+29,Whiplash,Drama,2014,107,8.5,2024-06-01 12:20:00
+30,The Departed,Crime,2006,151,8.5,2024-06-01 12:25:00
+31,Fantastic 4,Action,2025,124,8.6,2025-08-01 12:25:00
+32,Fantastic 4-2,Action,2025,124,8.6,2025-08-02 12:25:00
